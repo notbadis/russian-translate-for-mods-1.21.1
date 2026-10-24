@@ -1,0 +1,25 @@
+{
+  "item.fdbosses.qliphothic_codex": "Кодекс клипот",
+  "item.fdbosses.phase_sphere": "Фазовая сфера",
+  "item.fdbosses.malkuth_fist": "Перчатка огня и льда",
+  "item.fdbosses.divine_gear": "Божественный механизм",
+
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.info": "Позволяет на высокой скорости проходить сквозь блоки.\n\n§cВнимание!§r\n\nМобы всё ещё могут наносить вам урон; вы защищены только от удушья в блоках.",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.stats": "Длительность прохождения сквозь блоки:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereUseDuration}} тиков.\n\nПерезарядка:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=phaseSphereCooldown}} тиков.",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.stats": "Урон сокрушительного удара:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCrushDamage}}.\n\nПерезарядка:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCooldown}} тиков",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.info": "§6В правой руке:§r\n\nРаботает как крюк-кошка для блоков. Выполняет сокрушительную атаку Малхута в точке захвата.\nЕсли использовать на земле, глядя вниз, подбрасывает владельца в воздух.\n\n§6В левой руке:§r\n\nРаботает как крюк-кошка для существ. Автоматически атакует цель, а затем отбрасывает владельца назад.\n\n§6Комбинация:§r\n\nЕсли переложить предмет из левой руки в правую, его перезарядка сбросится.",
+  "entity.fdbosses.judgement_bird": "Птица правосудия",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.stats": "Урон:\n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearDamage}}.\n\nИнтервал между атаками:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackCooldown}} тиков.\n\nВремя существования:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearLifetime}} тиков.\n\nВремя восстановления заряда:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearChargeReplenishTime}} тиков.\n\nРадиус атаки:\n{{(fdlib:image)path=fdbosses:boss_duration}}: {{(fdbosses:config_float) config=itemConfig, value=divineGearAttackRadius}} блоков.",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.info": "Позволяет установить турель, которая атакует §cлюбого§r моба поблизости.\n\nВ первую очередь атакует последнее существо, которое вы атаковали.\n\nВмещает до {{(fdbosses:config_float) config=itemConfig, value=divineGearCharges}} зарядов.",
+  "fdbosses.word.set_special_respawn_point": "Особая точка возрождения установлена",
+  "fdbosses.word.item_is_not_released_yet": "Этот предмет ещё не выпущен!",
+  "fdbosses.word.malkuth_fist_description": "В правой руке работает как крюк-кошка для блоков, в левой — для существ. Если переложить предмет из левой руки в правую, его перезарядка сбросится.",
+  "fdbosses.word.phase_sphere_description": "При использовании на короткое время позволяет проходить сквозь блоки.",
+  "fdbosses.word.divine_gear_description": "Нажмите правой кнопкой по блоку, чтобы установить турель, атакующую любого моба поблизости.",
+
+  "fdbosses.skills.malkuth.knights_duty_description": "Во время битвы все бойцы получают эффект {{(fdbosses:effect)id=fdbosses:knight}} .\n\nЕсли боец выйдет с арены до конца битвы, эффект {{(fdbosses:effect)id=fdbosses:knight}} сменится на {{(fdbosses:effect)id=fdbosses:coward}} .\n\nПоле с лавой не является частью арены!\n\nКогда боец с эффектом {{(fdbosses:effect)id=fdbosses:coward}} снова войдёт на арену, эффект сменится обратно на {{(fdbosses:effect)id=fdbosses:knight}}.\n\n§oТрусость недопустима! Наказание — смерть!§r\n\n",
+  "fdbosses.word.core_lose": "ВНИМАНИЕ: нельзя установить на один предмет два или более разных ядра!",
+  "fdbosses.skills.geburah.laser_beam_description": "Гебура вращает пушки, предугадывая движения бойцов, а затем выпускает мощный лазерный луч.\n\n§oУ тебя сдавило грудь.",
+  "fdbosses.skills.geburah.sin_move_clockwise_sin_description": "Когда этот грех активен, движение §eвокруг§r §eГебуры§r в §cпротивоположном§r направлении стрелок считается грехом.\n\n§oИ снова, и снова мы идём по кругу…",
+  "fdbosses.skills.geburah.divine_judgement_stats": "Урон от текущего здоровья в процентах: \n{{(fdlib:image)path=fdbosses:boss_damage}}: {{(fdbosses:config_float) config=geburahConfig, value=ultimateMoveHealthPercentage}}%"
+}

@@ -1,0 +1,21 @@
+{
+  "item.raidsenhanced.player_blimp": "Дирижабль",
+  "item.raidsenhanced.zapper_staff": "Посох разрядов",
+  "item.raidsenhanced.blimp_parts": "Детали дирижабля",
+  "item.raidsenhanced.handcannon": "Ручная пушка",
+  "itemGroup.raidsenhanced": "Усиленные рейды",
+  "raidsenhanced.mount": "Снова взаимодействуйте с дирижаблем, чтобы слезть.",
+  "entity.raidsenhanced.zapper": "Разрядник",
+  "entity.raidsenhanced.golem_of_last_resort": "Голем последней надежды",
+  "entity.raidsenhanced.raid_blimp": "Дирижабль разбойников",
+  "entity.raidsenhanced.player_blimp": "Дирижабль",
+  "entity.raidsenhanced.raid_drill": "Бур разбойников",
+  "item.raidsenhanced.zapper_spawn_egg": "Яйцо призыва разрядника",
+  "item.raidsenhanced.golem_of_last_resort_spawn_egg": "Яйцо призыва голема последней надежды",
+  "item.raidsenhanced.raid_blimp_spawn_egg": "Яйцо призыва дирижабля разбойников",
+  "item.raidsenhanced.raid_drill_spawn_egg": "Яйцо призыва бура разбойников",
+  "raidsenhanced.item_description.player_blimp": "Разместите на земле, чтобы призвать свой дирижабль",
+  "raidsenhanced.item_description.handcannon": "Используйте, чтобы выстрелить мощной бомбой",
+  "raidsenhanced.item_description.zapper_staff": "Используйте, чтобы выпустить шаровую молнию. Если использовать, глядя на землю, вокруг игрока ударят молнии.",
+  "raidsenhanced.item_description.blimp_parts": "Создайте вместе с любой лодкой, чтобы превратить её в дирижабль"
+}
